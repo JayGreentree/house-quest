@@ -1,0 +1,89 @@
+fieldLayouts:
+  ae4f86ba-56f9-4493-86f2-ad8c3b9e907f:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ea7a8df5-df5e-4e87-8f33-30807a8135aa
+            warning: null
+            width: 100
+          -
+            fieldUid: e9e5f0ef-0616-4191-85b2-a11f616f7529 # Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5bade49-933f-4f45-9e59-9478cfd7ba7b
+            warning: null
+            width: 100
+          -
+            fieldUid: eba448dd-fce1-475c-906a-424908fe16b9 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff575b9d-6917-4e87-950c-28826df9dac5
+            warning: null
+            width: 100
+          -
+            fieldUid: 5414db66-8c60-43e3-8936-04917808897b # Listing URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6fe66cca-3581-41c5-a73b-d25c8aa63ff9
+            warning: null
+            width: 100
+          -
+            fieldUid: 38c4a33b-481d-40b8-bc3d-438b68b525b5 # Postal Code
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c3463bf5-c951-464e-bdd6-8af33f766529
+            warning: null
+            width: 100
+          -
+            fieldUid: ef08003b-039a-4e52-879a-769c5b0e9aa6 # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4bffd1d0-535d-4831-a16e-0614dbee5bb5
+            warning: null
+            width: 100
+        name: Content
+        uid: 49b0c5ba-cf81-433c-99fc-ac35b370f4d8
+handle: default
+hasTitleField: true
+name: Default
+section: ded86c8a-4e64-462d-9b23-f6acdd817de8 # Listings
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

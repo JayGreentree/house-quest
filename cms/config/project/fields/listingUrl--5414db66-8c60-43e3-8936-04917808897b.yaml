@@ -1,0 +1,14 @@
+columnSuffix: nxbnlfzc
+contentColumnType: string(255)
+fieldGroup: 6f30c6f3-1016-486f-bcfb-669d01377c1f # Listings
+handle: listingUrl
+instructions: null
+name: 'Listing URL'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

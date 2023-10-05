@@ -1,0 +1,10 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.5da841b1-ca0d-46ff-8bb1-04d6c889ac54:read' # English
+  - 'sections.d8c8e5aa-1358-40d8-b018-e46be935ae02:read' # Homepage
+  - 'entrytypes.0148c97f-10f4-4d15-9efe-404ab43abe67:read' # Homepage
+  - 'sections.ded86c8a-4e64-462d-9b23-f6acdd817de8:read' # Listings
+  - 'entrytypes.5329f59b-18ff-49de-aa86-0ad23632c2e4:read' # Default
+  - 'sections.92d52602-76a1-4771-a623-924b6d71d321:read' # Market News
+  - 'entrytypes.cc406493-df93-4e5e-bbab-125a5fe8ac88:read' # Default

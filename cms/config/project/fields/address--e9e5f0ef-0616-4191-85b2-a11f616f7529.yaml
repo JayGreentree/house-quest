@@ -1,0 +1,19 @@
+columnSuffix: dsbkzrei
+contentColumnType: text
+fieldGroup: 6f30c6f3-1016-486f-bcfb-669d01377c1f # Listings
+handle: address
+instructions: null
+name: Address
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

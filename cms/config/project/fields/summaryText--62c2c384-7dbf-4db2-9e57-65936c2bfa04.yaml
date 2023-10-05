@@ -1,0 +1,19 @@
+columnSuffix: isapyeek
+contentColumnType: text
+fieldGroup: 09be6598-aebc-4a93-8d7e-a37c37ad8d33 # Generic
+handle: summaryText
+instructions: null
+name: 'Summary Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,70 @@
+dateModified: 1680194604
+email:
+  fromEmail: andrew@nystudio107.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  site:
+    hasUrls: true
+    name: Site
+    settings:
+      path: '@webroot/assets/site'
+    type: craft\fs\Local
+    url: '@web/assets/site'
+meta:
+  __names__:
+    1f716763-7f9e-4ffd-9f8c-2c0e7ccf15f7: Selected # Selected
+    5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    5da841b1-ca0d-46ff-8bb1-04d6c889ac54: English # English
+    6f30c6f3-1016-486f-bcfb-669d01377c1f: Listings # Listings
+    7a591e66-18df-490d-92b5-3fd3a3986f09: default # default
+    8f804a45-ad1d-4a71-b0b4-6df2040dc205: Nuts # Nuts
+    09be6598-aebc-4a93-8d7e-a37c37ad8d33: Generic # Generic
+    38c4a33b-481d-40b8-bc3d-438b68b525b5: 'Postal Code' # Postal Code
+    62c2c384-7dbf-4db2-9e57-65936c2bfa04: 'Summary Text' # Summary Text
+    071aeb2b-e8eb-4bcf-825c-dd016745f107: Flavor # Flavor
+    92d52602-76a1-4771-a623-924b6d71d321: 'Market News' # Market News
+    0148c97f-10f4-4d15-9efe-404ab43abe67: Homepage # Homepage
+    4828c563-32cf-4021-afeb-1d5e38f31daf: 'Accent Color' # Accent Color
+    5329f59b-18ff-49de-aa86-0ad23632c2e4: Default # Default
+    5414db66-8c60-43e3-8936-04917808897b: 'Listing URL' # Listing URL
+    6005c2f9-5d85-4442-b712-22e070096ac8: 'Public Schema' # Public Schema
+    6359fe58-db81-4ee6-94eb-e9f4e3c61da6: Notes # Notes
+    c2e2b69d-127d-4afe-8032-0209247e70de: default # default
+    cc406493-df93-4e5e-bbab-125a5fe8ac88: Default # Default
+    d8c8e5aa-1358-40d8-b018-e46be935ae02: Homepage # Homepage
+    dd87a305-fb8e-4bc0-965b-8afadc876934: Syrup # Syrup
+    ded86c8a-4e64-462d-9b23-f6acdd817de8: Listings # Listings
+    e9e5f0ef-0616-4191-85b2-a11f616f7529: Address # Address
+    e7500fc4-6a5e-4656-8947-27c47c0c9dd8: Whip # Whip
+    eba448dd-fce1-475c-906a-424908fe16b9: Image # Image
+    ef08003b-039a-4e52-879a-769c5b0e9aa6: 'Rich Text' # Rich Text
+    f652db8c-edc2-4a66-8241-2fb0787110ee: 'Primary Color' # Primary Color
+    f89601e9-4ba9-4a48-9e99-350aa9914912: default # default
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: 'Craft CMS'
+  retryDuration: 60
+  schemaVersion: 4.4.0.4
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  deactivateByDefault: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

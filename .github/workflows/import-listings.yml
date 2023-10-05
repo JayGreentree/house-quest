@@ -1,0 +1,11 @@
+name: Import Listings from External API
+on:
+  schedule:
+  - cron: '*/10 * * * *'
+jobs:
+  feed_me:
+    name: Run Feed Me Queue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Import real estate listing from mock api
+        run: curl -s -o /dev/null https://house-quest-staging.cl-us-east-3.servd.dev/index.php/actions/feed-me/feeds/run-task\?direct\=1\&feedId\=1\&passkey\=jplczerxeh
